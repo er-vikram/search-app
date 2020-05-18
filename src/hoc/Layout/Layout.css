@@ -3,4 +3,6 @@
     margin: auto;
     position: relative;
     min-height: 100vh;
+    padding-top: 15px;
+    box-sizing: border-box;
 }
