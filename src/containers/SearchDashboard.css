@@ -1,0 +1,8 @@
+.Logout {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    border: 1px solid;
+    padding: 2px 11px;
+    cursor: pointer;
+}

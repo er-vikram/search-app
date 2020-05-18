@@ -1,0 +1,29 @@
+.Pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+        display: flex;
+    color: grey;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+.Pagination div {
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 5px;
+    height: 28px;
+    width: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+}
+.Selected {
+    color: black;
+    font-weight: bolder;
+}

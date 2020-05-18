@@ -1,0 +1,17 @@
+.Search {
+    background: darkorange;
+    border: 8px solid white;
+    margin-top: 20px;
+}
+.Search h2{
+    padding: 10px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.Search form {
+    display: flex;
+    justify-content: space-between;
+}
+.Search form > div {
+    max-width: 300px;
+}

@@ -1,0 +1,26 @@
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 16px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.button:disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+
+.btnSearch {
+    background: lightgray;
+    color: black;
+}
+
+.btnLogin {
+    color: #ffffff;
+    background-color: #000000;
+}

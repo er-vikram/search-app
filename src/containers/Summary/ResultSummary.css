@@ -1,0 +1,101 @@
+.Summary {
+    background: #eee;
+    border: 8px solid white;
+    margin: 12px 0;
+    padding: 14px 20px;
+}
+.Summary h3 {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.Table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+.Table caption {
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+.Table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+.Table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.Danger {
+    background-color: rgba(255, 0, 0,0.05) !important;
+    color: red;
+}
+  
+.Table th,
+.Table td {
+    padding: .625em;
+    text-align: center;
+}
+
+.Table td:first-child {
+    text-align: left;
+}
+  
+.Table th {
+    Background: #999;
+}
+  
+@media screen and (max-width: 600px) {
+    .Table {
+      border: 0;
+    }
+  
+    .Table caption {
+      font-size: 1.3em;
+    }
+    
+    .Table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .Table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    .Table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    .Table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .Table td:last-child {
+      border-bottom: 0;
+    }
+    .Table td:first-child {
+        text-align: right;
+    }
+}
